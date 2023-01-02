@@ -18,7 +18,7 @@ public class ParticleManager : MonoBehaviour
     }
 
     public void explosionSpawn(Vector3 a) {
-        Instantiate(exploObj, a, Quaternion.identity);
+        Instantiate(exploObj, new Vector3(a.x, a.y + 1, a.z), Quaternion.identity);
         Debug.Log("explo spawn: " + a);
     }
 }

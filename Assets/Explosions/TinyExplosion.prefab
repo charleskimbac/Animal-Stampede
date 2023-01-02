@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4441266138185142}
   - component: {fileID: 198175801688348628}
   - component: {fileID: 199922078765427110}
-  - component: {fileID: 8284471039395980208}
+  - component: {fileID: 892911990370963113}
   m_Layer: 0
   m_Name: TinyExplosion
   m_TagString: Untagged
@@ -4919,7 +4919,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &8284471039395980208
+--- !u!114 &892911990370963113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
